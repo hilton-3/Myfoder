@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    top: 0; 
+    left: 0;
+    padding-left: 70px 10% 0;
+    position: fixed;
+    background: transparent;
+    border: 1px solid #ff722f;
+    box-sizing: border-box;
+    border-top:  none;
+    border-left: none;
+    border-right: none;
+    
+   } 
+   body{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(image_downloader_1665175955345.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+     
+
+   }
+   .hilton{
+    float: left;
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    text-shadow: darksalmon;
+    
+     
+    transition: 2s ease;
+    padding-left: 40px;
+   }
+   .hilton:hover{
+    background: transparent;
+    color: black;
+   }
+   nav a{
+    float: right;
+    margin-top: 40px;
+    color: #fff;
+    text-decoration: none;
+    padding-right: 60px;
+    font-size: 20px;
+    
+   }
+   nav a:hover{
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+    transform: translateY(-10px);
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+     
+   }
+   nav .active{
+    color: #0ef;
+    font-size: 22px;
+    font-weight: bold;
+   }
+   .hilton span{
+    color: #0ef;
+   }
+   .form{
+    position: fixed;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    height: 380px;
+    top: 100px;
+    padding: 33px;
+    width: 250px;
+    border-radius: 10px;
+    left: 780px;
+   }
+   .form h1{
+     width: 240px;
+     height: 40px;
+     background: #0ef;
+     color: #fff;
+     border-radius: 10px;
+     text-align: center;
+     line-height: 40px;
+   }
+   .form input{
+    margin-top: 30px;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 240px;
+    border-bottom: 1px solid #0ef;
+    color: #fff;
+    outline: none;
+   }
+   .btn{
+    width: 240px;
+    height: 40px;
+    background: #0ef;
+    margin-top: 30px;
+    border-radius: 10px;
+    transform: translateY(-10px);
+    border: transparent;
+    transform: translateY(-10px);
+   }
+   .btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+   }
+   .btn:hover{
+    background: var(--clr-accent);
+    color: var(--clr-light);
+    transition: 2s ease;
+     
+   }
+   .form  p{
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+   }
+   p a{
+    text-decoration: none;
+    margin-top: 20px;
+    color: #ff722f;
+    text-shadow: 0 0 70px #0ef;
+   }
+   p a:hover{
+    color: #0ef;
+    transition: 2s ease;
+   }

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     
+    <title>Hilton-fyle/website</title>
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+       }
+       header{
+        width: 100%;
+        top: 0; 
+        left: 0;
+        padding-left: 70px 10% 0;
+        position: fixed;
+        background: transparent;
+        border: 1px solid #ff722f;
+        box-sizing: border-box;
+        border-top:  none;
+        border-left: none;
+        border-right: none;
+        
+       } 
+       body{
+        background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(image_downloader_1665175955345.jpg); 
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 120vh;
+         
+
+       }
+       .hilton{
+        float: left;
+        margin-top: 20px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: cursive;
+        text-shadow: darksalmon;
+        
+         
+        transition: 2s ease;
+        padding-left: 40px;
+       }
+       .hilton:hover{
+        background: transparent;
+        color: black;
+       }
+       nav a{
+        float: right;
+        margin-top: 40px;
+        color: #fff;
+        text-decoration: none;
+        padding-right: 60px;
+        font-size: 20px;
+        
+       }
+       nav a:hover{
+        background-color: var(--clr-accent);
+        color: var(--clr-light);
+        transform: translateY(-10px);
+        transition-property: transform;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+         
+       }
+       nav .active{
+        color: #0ef;
+        font-size: 22px;
+        font-weight: bold;
+       }
+       .content{
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        justify-content: space-between;
+         
+        
+        margin-top: 20%;
+        color: #fff;
+        position: fixed;
+       }
+       .content h1{
+        font-size: 50px;
+        font-family:  Georgia;
+        text-shadow: 0 0 70px;
+       }
+       .hilton span{
+        color: #0ef;
+       }
+     
+        .dimo{
+            display: inline-block;
+            padding: 12px 28px;
+            background-color: 0.3s, color 0.3s;
+            background-color: #0ef;
+            border-radius: 40px;
+            box-shadow: 0 0 70px ;
+            text-decoration: none;
+            margin-top: 40px;
+            transition-property: transform;
+            transition-duration: 0.3s;
+            transition-timing-function: ease;
+            transition-delay: 0;
+
+
+        }
+        .dimo:hover{
+            transform: translateY(-10px);
+            background-color: var(--clr-accent);
+            color: var(--clr-light);
+        }
+        
+        @keyframes slideInLeft {
+            from{
+                transform: translateX(-300px);
+            }
+            to{
+                transform: rotateX(0);
+            }
+        }
+        .content h1{
+            animation-name: slideInLeft;
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 0s;
+            animation-iteration-count: 1;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+            color: #0ef;
+             
+        }
+        img{
+            width: 50px;
+             
+            
+            position: fixed; 
+            margin-top: 12%;
+            margin-left: 650px;
+            border-radius: 30px;
+            border: 2px solid #0ef;
+             
+        }
+        img:hover{
+            transform: translateY(-10px);
+             
+
+        }
+        .content h3{
+            font-weight: bold;
+            font-size: 30px;
+            text-shadow: 0 0 70px red;
+        }
+        
+       
+
+        
+    </style>
+</head>
+<body>
+     
+    <header>
+        <a href="" class="hilton"><span>WEB</span>Master</a>
+        
+        <nav class="navbar">
+            <a href="Service.html">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="Contact.html" class="active">Sign in</a>
+        </nav>
+    </header>
+    <div class="content">
+        <h3>Hello everyone</h3>
+        <h1>We are SAMPAPARATUS</h1>
+        <h3 >You are free to join us!</h3>
+        <a href="" class="dimo">Learn More</a>
+        
+    </div>
+    <img   src="1679653326087.jpg" alt="you can use data to view image">
+      
+</body>
+</html>
